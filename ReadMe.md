@@ -1,33 +1,22 @@
-# Text Summarization - A Project Proposal for CS152
+# Automatic Text Summarization - A Project Proposal for CS152
 
-## Title: Text Summarization using Neural Networks  
+## Title: Automatic Text Summarization 
+![image](https://github.com/jrod2699/CS152-Project/blob/gh-pages/Text-Summarization.jpg?raw=true)
 
-![image](https://github.com/jrod2699/CS152-Project/Text-Summarization.jpg?raw=true)
+## Project Description 
 
-```markdown
-Syntax highlighted code block
+I will focus on building an automatic text summarizer -- a project based in the intersection between Natural Language Processing and Neural Networks. Automatic text summarization is the task of producing a concise and fluent summary while preserving key information, content, and overall meaning. In order to do this, I will be implementing an abtractive summarization approach wherein the summarizer generates new sentences from the original text -- meaning that the sentences generated might not be present in the original text. 
 
-# Header 1
-## Header 2
-### Header 3
+Text summarization can be viewed through sequence-to-sequence (Seq2Seq) modeling -- given that it involves sequencial information. The objective will be to construct a text summarizer where the input will be a long sequence of words, and the output is a concise summary of the original text (both are sequences of words). According to my research, there are major components of a Seq2Seq model: 
 
-- Bulleted
-- List
+-Encoder
+-Decoder
 
-1. Numbered
-2. List
+In the training phase, the encoder and decoder will be set up and trained to 1. read the entire input sentence sequence wherein the text is processed in order to capture the contextual infromation present in the input sentence, and 2. predict the next word in the sequence given the previous word. 
 
-**Bold** and _Italic_ and `Code` text
+In constructing this summarizer, the hope is to gain a deeper understanding of how neural networks can help in NLP applications as well as circumvent shortcomings of the architectures used to develop the summarizer -- and hopefully remedy those shortcomings.
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jrod2699/CS152-Project/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Project Goals
+1. Implement encoder-decoder architecture in construction of automatic text summarizer.
+2. Explore other models to improve the performance of the text summarizer. 
+3. Evaluate the performance of the model using BLEU score.
