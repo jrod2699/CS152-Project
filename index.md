@@ -1,12 +1,8 @@
-## Welcome to GitHub Pages
+# Text Summarization - A Project Proposal for CS152
 
-You can use the [editor on GitHub](https://github.com/jrod2699/CS152-Project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Title: Text Summarization using Neural Networks  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![
 
 ```markdown
 Syntax highlighted code block
