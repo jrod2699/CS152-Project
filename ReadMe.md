@@ -2,7 +2,7 @@
 
 ## Title: Text Summarization using Neural Networks  
 
-![
+![image](https://github.com/jrod2699/CS152-Project/blob/Text-Summarization.jpg?raw=true)
 
 ```markdown
 Syntax highlighted code block
