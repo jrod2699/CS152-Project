@@ -18,4 +18,4 @@ In constructing this summarizer, the hope is to gain a deeper understanding of h
 ## Project Goals
 1. Implement encoder-decoder architecture in construction of automatic text summarizer.
 2. Explore other models to improve the performance of the text summarizer. 
-3. Evaluate the performance of the model using BLEU score.
+3. Evaluate performance through an appropriate metric(TBD).
